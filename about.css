@@ -1,0 +1,81 @@
+body{
+    background-image: url('paint.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px;
+}
+*:not(i){
+    font-family: "Poppins", sans-serif;
+}  
+.navbar{
+    background: rgba(13,165,184,255);
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 35px;
+    font-weight: 600;
+    color: whitesmoke;
+}
+.logo a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 25px;
+    text-decoration: none;
+}
+li a:hover{
+    color:rgba(108,70,226,255);
+}
+.about{
+    background-color: transparent;
+    width: 60vmin;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top:50%;
+    left:50%;
+    padding: 80px 50px;
+    border-radius: 10px;
+    box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
+    border: solid;
+    border-color: whitesmoke;
+    backdrop-filter: blur(10px);
+}
+.about dl{
+    color: whitesmoke;
+    text-align: justify;
+}
+.about dl dt{
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.about dl dt a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.about dl dt a:hover{
+    color:rgba(76,194,206,255);
+}
+.about dl dd{
+    margin: 0px;
+    font-size: 18px;
+}

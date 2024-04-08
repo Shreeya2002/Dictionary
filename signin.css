@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+*:not(i){
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-image: url('paint.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height:100%;
+}
+.wraper{
+    background-color: transparent;
+    width: 50vw;
+    height: 100vh;
+    float: left;
+    margin-top: 0;
+    padding: 0;
+    backdrop-filter: blur(10px);
+    border-right:whitesmoke solid 5px;
+    box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
+}
+.form-div h1{
+    color: whitesmoke;
+}
+.form-div{
+    position: absolute;
+    justify-items: center;
+    transform: translate(-50%,-50%);
+    top:50%;
+    left:50%;
+}
+.uname{
+    background-color: transparent;
+    font-size: 16px;  
+    color: whitesmoke;
+}
+.uname input{ 
+    text-decoration: none;
+    padding: 5px;
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid;
+    border-color: whitesmoke;
+    outline: none;
+    background-color: transparent;
+    font-size: 16px;  
+    color: whitesmoke; 
+}
+.pass{
+    background-color: transparent;
+    font-size: 16px;  
+    color: whitesmoke;
+}
+.pass input{ 
+    text-decoration: none;
+    padding: 5px;
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid;
+    border-color: whitesmoke;
+    outline: none;
+    background-color: transparent;
+    font-size: 16px;  
+    color: whitesmoke; 
+}
+.remember{
+    color: whitesmoke;
+}
+.remember input{
+    background-color: transparent;
+}
+.form-div button{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(108,70,226,255);
+    border: 2px solid;
+    border-color: whitesmoke;
+    outline: none;
+    color: whitesmoke;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    }

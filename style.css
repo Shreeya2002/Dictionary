@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+*:not(i){
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-image: url('paint.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.navbar{
+    background: rgba(13,165,184,255);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 35px;
+    font-weight: 600;
+    color: whitesmoke;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 25px;
+    text-decoration: none;
+}
+li a:hover{
+    color: rgba(108,70,226,255);
+}
+button{
+    margin-left: 10px;
+    padding: 10px;
+    width: 90px;
+    background-color: rgba(108,70,226,255);
+    border: 3px;
+    border-color: whitesmoke;
+    outline: none;
+    color: whitesmoke;
+    border-radius: 10px;
+}
+button a{
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+}
+.container{
+    background-color: transparent;
+    width: 90vmin;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top:50%;
+    left:50%;
+    padding: 80px 50px;
+    border-radius: 10px;
+    box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
+    border: 3px solid;
+    border-color: whitesmoke;
+    backdrop-filter: blur(10px);
+}
+.searchbox{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+}
+.searchbox input{
+    text-decoration: none;
+    padding: 5px;
+    width: 70%;
+    border-radius: 10px;
+    border: 2px solid;
+    border-color: whitesmoke;
+    outline: none;
+    background-color: transparent;
+    font-size: 16px;  
+    color: whitesmoke  
+}
+.searchbox input::placeholder{
+    color: darkgrey;
+}
+.searchbox button{
+        width: 30%;
+        background-color: rgba(108,70,226,255);
+        border: 2px solid;
+        border-color: whitesmoke;
+        outline: none;
+        color: whitesmoke;
+        border-radius: 10px;
+}
+.result{
+    position: relative;
+}
+.result h3{
+    font-size: 30px;
+    color: whitesmoke;
+}
+.result .word{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.result button{
+    background-color: transparent;
+    color:rgba(64,17,98,255);
+    border: none;
+    outline: none;
+    font-size: 18px;
+
+}
+.result .details{
+    display: flex;
+    gap: 10px;
+    color: whitesmoke;
+    margin: 5px 0 20px 0;
+    font-size: 14px;
+
+}
+.meaning{
+    color: whitesmoke;
+}
+.example{
+    color: whitesmoke;
+    font-style: italic;
+    border-left: 5px solid;
+    padding-left: 20px;
+    margin-top: 30px;
+
+}
+.error{
+    margin-top: 80px;
+    text-align: center;
+}
